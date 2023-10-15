@@ -1,2 +1,2 @@
 # Java-leetcode
- all my structured solutions while working through problems in leetcode
+All my personal structured solutions to leetcode problems in java
