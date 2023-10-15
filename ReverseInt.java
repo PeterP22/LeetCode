@@ -43,6 +43,8 @@ public class ReverseInt
             // check for overflow and return 0 if overflow occurs
             if (reversed > Integer.MAX_VALUE || reversed < Integer.MIN_VALUE)
             {
+                // make a print statement to show the overflow and the number that caused it
+                System.out.println("Overflow occurred with number: " + x);
                 return 0;
             }
         }

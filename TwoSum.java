@@ -52,12 +52,13 @@ public class TwoSum
         int[] numbers = {2, 7, 11, 15};
         int target = 9;
         int[] result = twoSumBasic(numbers, target);
-        System.out.println(result[0] + " " + result[1]);
+        // say which numbers add up to the target and print the indices of the numbers
+        System.out.println("The numbers " + numbers[result[0]] + " and " + numbers[result[1]] + " add up to " + target);
 
         // test the optimized solution with different inputs
         int[] numbers2 = {3, 3, 4};
         int target2 = 6;
         int[] result2 = twoSumOptimized(numbers2, target2);
-        System.out.println(result2[0] + " " + result2[1]);
+        System.out.println("The numbers " + numbers2[result2[0]] + " and " + numbers2[result2[1]] + " add up to " + target2);
     }
 }
