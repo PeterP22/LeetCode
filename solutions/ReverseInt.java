@@ -1,3 +1,5 @@
+package solutions;
+
 public class ReverseInt
 {
     public static int reverseBasic(int x) {
