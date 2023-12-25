@@ -103,7 +103,7 @@ public class Main {
     }
 
     private static void determineWeightForRepsAndRpe() {
-        System.out.println("Enter your estimated 1RM: ");2
+        System.out.println("Enter your estimated 1RM: ");
         double oneRepMax = scanner.nextDouble();
 
         System.out.println("Enter desired number of reps: ");
